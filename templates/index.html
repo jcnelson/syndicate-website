@@ -38,7 +38,7 @@
 	
 	<body>
 
-	<a href="http://github.com/jcnelson/syndicate"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+	<a href="http://github.com/syndicate-storage"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
 		
 		<!-- Top Starts -->
 		<div class="top">
@@ -69,8 +69,8 @@
 					<div class="row">
 						<div class="col-md-8">
 							<div class="intro">
-                        <h2>Decentralized<span class="tblue">.</span> Data<span class="tblue">.</span></h2>
-                        <p>Syndicate combines existing cloud storage providers into a single (virtual) cloud storage.  This decentralizes your data, so you control it, not the providers.</p><br />
+                               <h2>Decentralized<span class="tblue">.</span> Storage<span class="tblue">.</span></h2>
+                        <p>Syndicate integrates cloud services into a scalable coherent storage system.  This puts you in control of your data, not the services.</p><br />
 
 								<div id="mc_embed_signup">
 								<form action="http://syndicatedrive.us4.list-manage.com/subscribe/post?u=c16cd4b8ca4344319fbe3328d&amp;id=915185dfa6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -112,7 +112,7 @@
 						<div class="feat">
 							<p><i class="icon-cloud"></i></p>
                      <h4>Decentralized</h4>
-							<p>With Syndicate, you are not tied down to any single cloud provider, and you can seamlessly move between them.  You control where and how your data is stored.</p>
+							<p>With Syndicate, you are not tied down to any single service provider, and you can seamlessly move between them.  You control where and how your data is stored.</p>
 						</div>
 					</div>
 					<div class="col-md-3 col-xs-6">
@@ -126,14 +126,14 @@
 						<div class="feat">
 							<p><i class="icon-time"></i></p>
 							<h4>Fast</h4>
-							<p>Syndicate uses content distribution networks to boost the speed of your data downloads, while also ensuring you always read fresh data.</p>
+							<p>Syndicate can use content distribution networks and scalable PaaS providers to boost the speed of your data downloads, while also ensuring you always read fresh, correct data.</p>
 						</div>
 					</div>
 					<div class="col-md-3 col-xs-6">
 						<div class="feat">
 							<p><i class="icon-linux"></i></p>
 							<h4>Developer API</h4>
-							<p> Developers can write and deploy application-specific storage logic on top of Syndicate, and never worry about hosting user data or scaling access to it.</p>
+							<p> Syndicate gives developers end-to-end control over data consistency and trust boundaries, so you never worry about hosting user data or scaling access to it.</p>
 						</div>
 					</div>
 				</div>
@@ -159,7 +159,8 @@
 								<div class="col-md-10 col-xs-6">
 									<div class="shot-content-body">
 										<h4><i class="icon-hdd tblue"></i> Syndicate Drive</h4>
-                              <p>Syndicate runs as a <a href="http://fuse.sourceforge.net/">FUSE</a> filesystem on UNIX-like operating systems (Linux, Mac OS X, etc.). You can get the development-build RPMs <a href="http://vcoblitz-cmi.cs.princeton.edu/syndicate-nightly/RPMS/">here</a>. Our source code and documentation are on <a href="http://github.com/jcnelson/syndicate">GitHub</a>. Our first stable release will be for <a href="http://planet-lab.org">PlanetLab</a> users.</p>
+                              <p>Syndicate runs as a <a href="http://fuse.sourceforge.net/">FUSE</a> filesystem on UNIX-like operating systems (Linux, Mac OS X, etc.).
+                              Our source code and documentation are on <a href="http://github.com/syndicate-storage">GitHub</a>. Our first stable release will be for <a href="http://www.opencloud.us">OpenCloud</a> users.</p>
 									</div>
 								</div>
 							</div>
@@ -176,10 +177,11 @@
 						<div class="shotcontent">
 							<h3><a name="research">Research</a></h3>
 							<div class="shot-content-body">
-							<p> Syndicate creates a scalable, programmable cloud storage abstraction layer.  With Syndicate, a user can combine multiple cloud storage accounts and on-site storage to create a virtual, always-on, decentralized storage drive. Syndicate uses CDNs and edge caches to provide scalable data delievery. 
-
-The key innovation behind Syndicate is a novel data consistency protocol, which enforces your consistency requirements in the face of weak cache consistency in CDNs.  Syndicate lets you define the semantics of cloud storage independent of the providers, lowering the barrier-to-entry for deploying cloud storage and increasing consumer freedom.</p><br>
-
+							<p> Syndicate is scalable software-defined storage.  With Syndicate, you control end-to-end data consistency, dataflow processing, and admin/trust boundaries across a changing set of existing cloud services.
+                            With Syndicate, each user gets their own decentralized storage volumes that can host a scalable amount of data and handle a scalable number of reads and writes.
+                            Volumes are always online and are not tied to any service providers--users do not need to run or manage their own servers, nor do they need to leave any of their devices turned on 24/7.
+                            Syndicate instead incorporates existing cloud storage, content distribution networks, publicly-routable datasets, PaaS providers, and authentication services to create volumes.
+                            <br><br>
 <p>Please read our <a href="static/files/syndicate_poster.pdf">extended abstract</a> or <a href="static/files/syndicate_whitepaper.pdf">whitepaper</a> for a technical overview of the Syndicate architecture.</p><br> <p>Applications that are being built using Syndicate include:</p><br>
 </div>
 
@@ -188,20 +190,24 @@ The key innovation behind Syndicate is a novel data consistency protocol, which 
 								<div class="col-md-4 col-xs-4">
 									<div class="shot-content-body">
 										<h4><i class="icon-inbox tblue"></i> Secure Email</h4>
-                              <p> Storing emails in the cloud is convenient and enables access from multiple devices. However, users have to trust cloud providers for not leaking or processing their emails. Syndicate enables <a href="http://github.com/jcnelson/syndicatemail">private encrypted email</a>.</p>
+                                        <p> Storing emails in the cloud is convenient and enables access from multiple devices. However, users have to trust cloud providers for not leaking or processing their emails. Syndicate enables <a href="http://github.com/jcnelson/syndicatemail">private encrypted email</a> that is secure as PGP email, but without forcing users to manage keys.</p>
 									</div>
 								</div>
 								<div class="col-md-4 col-xs-4">
 									<div class="shot-content-body">
-										<h4><i class="icon-share tblue"></i> Video Sharing</h4>
-										<p> We're building a simple video sharing application on top of Syndicate. You can think of this as your personal NetFlix for sharing videos with your friends. Syndicate will take care of content delivery and performance. </p>
+										<h4><i class="icon-share tblue"></i> Scalable Scientific Data Processing</h4>
+										<p>
+                                        Scientific data storage is the ultimate data silo.  Syndicate helps integrate scientific storage with commodity CDNs and cloud storage to enable multiple labs to efficiently share data between their computing facilities.
+                                        </p>
 									</div>
 								</div>
 								<div class="col-md-4 col-xs-4">
 									<div class="shot-content-body">
-										<h4><i class="icon-search tblue"></i> SearchLab</h4>
-										<p> <a href="http://searchlab.io">SearchLab</a> is a testbed for running large-scale search experiments.
-It enables researchers to quickly deploy search systems by re-using common components and run realistic search experiments using large datasets</p>
+										<h4><i class="icon-search tblue"></i> End-to-End Encrypted Shared Folders</h4>
+										<p> 
+                                        Dropbox showed the world the value of having a shared folder sync'ed across all your devices.  With Syndicate, your shared folder can not only scale to millions of users, but also offer end-to-end encryption
+                                        and arbitrary replication policies.
+                                        </p>
 									</div>
 								</div>
 							</div>
@@ -243,7 +249,7 @@ It enables researchers to quickly deploy search systems by re-using common compo
 				<div class="row">
 					<div class="col-md-12">
 						<div class="copy text-center">
-							&copy; 2013 The Trustees of Princeton University. All Rights Reserved.
+							&copy; 2016 The Trustees of Princeton University. All Rights Reserved.
 						</div>
 					</div>
 				</div>
